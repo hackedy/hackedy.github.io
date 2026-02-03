@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ryan Doenges</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <style>
+      #tagline {
+        border-top: 1px solid;
+        padding: 12px 0 12px;
+        margin: 0;
+        font-style: italic;
+      }
+      .hnote { font-weight: normal; font-size: 18px; float: right}
+      body { 
+        color: hsl(60 20% 5%);
+        margin: 0 auto 0 auto; 
+      }
+      h2 {
+        font-size: 24px; 
+        font-family: "Canela", "Canela Text", "Book Antiqua", Palatino, serif;
+      }
+      h1 {
+        margin-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        font-family: "Canela", "Canela Text", "Book Antiqua", Palatino, serif;
+        border-bottom: 2px solid gray;
+      }
+      .page {
+        margin: 0px auto 0px auto;
+          font-family: "Book Antiqua", Palatino, serif;
+          font-size: 20px;
+          padding: 5px 20px 5px 20px;
+          max-width: 800px;
+      }
+      a {
+          color: hsl(195 100% 35%);
+          text-decoration: none;
+      }
+      a:hover {
+          text-decoration: underline wavy;
+      }
+      dt { 
+        font-style: italic;
+        float:left; clear:left; width: 50px; padding-left: 20px; text-align: left; }
+      dd { padding-left: 15px; }
+      #headshot {
+        max-width: 200px;
+        float:left;
+        padding:10px;
+        margin: 0px 20px 0px 0px
+      }
+      ul { margin: 0 0 0 0; }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="title">Ryan Doenges</h1>
+      <div id="content">
+        <div>
+          <p>
+          Hi! You are on my home page. You can reach me at 
+          <a href="mailto:me@ryandoeng.es">me@ryandoeng.es</a> and
+          <a href="mailto:doengesr@bc.edu">doengesr@bc.edu</a>,
+          or drop by room 428-I in 245 Beacon Street.
+          </p>
+        <div>
+        </div>
+          <p>
+            I am a postdoc at Boston College working with <a
+              href="https://cs.bc.edu/stumpaa/">Aaron Stump</a>. I am broadly
+            interested in ascribing precise, compositional specifications to
+            programs with side effects. (After all, if they can't do anything,
+            what is there to worry about?) This includes:
+            <ul>
+              <li>program logics and type systems for low-level and
+                domain-specific languages</li>
+              <li>subtyping and type inference for making these systems usable</li>
+              <li>models for type systems and program logics</li>
+              <li>compiler verification, especially w.r.t. separate compilation</li>
+              <li>categorical logic, insofar as it can systematize 
+                the foundations of these topics</li>
+            </ul> 
+          </p>
+          <h2>News</h2>
+          <p><dl>
+            <dt>7/26</dt>
+            <dd>I'll be in Indianapolis at the end of August to present our
+              paper at the Haskell Symposium.</dd>
+          </dl></p>
+        </div>
+        <div style="clear:left">
+<div class="hnote">(cf. <a href="https://dblp.org/pid/271/5967.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=4JhfM90AAAAJ">Scholar</a>)</div>
+          <h2>Papers</h2>
+          <ul>
+            <li>
+              <strong>Coercive Subtyping for Implicit Functorial Programming.</strong>
+              <br />
+              HASKELL 2026.
+              Ryan Doenges, Caden Parajuli, Ayden Lamparski, Ke Wu, and Aaron Stump.
+            </li>
+            <li>
+              <strong>Foundational Verification of Stateful P4 Packet Processing.</strong>
+              [ <a href="https://doi.org/10.4230/LIPIcs.ITP.2023.32">doi</a>
+              ]
+              <br />
+              ITP 2023.
+              Qinshi Wang, Mengying Pan, Shengyi Wang, Ryan Doenges, Lennart Beringer and
+              Andrew W. Appel.
+            </li>
+            <li>
+              <strong>P4Cub: A Little Language for Big Routers.</strong>
+              [ <a href="https://dl.acm.org/doi/10.1145/3573105.3575670">doi</a>
+              ]
+              <br />
+              CPP 2023.
+              Rudy Peterson, Eric Hayden Campbell, John Chen, Natalie Isak, Calvin Shyu,
+              Ryan Doenges, Parisa Ataei, and Nate Foster.
+            </li>
+            <li>
+              <strong>Leapfrog: Certified Equivalence for Protocol Parsers.</strong>
+              [ <a href="https://doi.org/10.1145/3519939.3523715">doi</a>
+              | <a href="https://arxiv.org/abs/2205.08762">arxiv (+proofs)</a>
+              ]
+              <br />
+              PLDI 2022.
+              Ryan Doenges, Tobias Kapp&eacute;, John Sarracino, Nate Foster, and Greg Morrisett.
+            </li>
+            <li>
+              <strong>Petr4: Formal Foundations for P4 Data Planes.</strong>
+              [ <a href="https://doi.org/10.1145/3434322">doi</a>
+              | <a href="https://arxiv.org/abs/2011.05948">arxiv (+proofs)</a>
+              ]
+              <br />
+              POPL 2021.
+              Ryan Doenges, Mina Tahmasbi Arashloo, Santiago Bautista, Alexander Chang, Newton Ni, Samwise Parkinson, Rudy Peterson, Alaia Solko-Breslin, Amanda Xu, and Nate Foster.
+            </li>
+            <li>
+              <strong>Composing Dataplane Programs with &mu;P4.</strong>
+              [ <a href="https://doi.org/10.1145/3387514.3405872">doi</a>
+              ]
+              <br />
+              SIGCOMM 2020.
+              Hardik Soni, Myriana Rifai, Praveen Kumar, Ryan Doenges, and Nate Foster.
+            </li>
+          </ul>
+          <h2>Extended Abstracts</h2>
+          <ul>
+            <li>
+              <strong>Specifying ABIs with Realizability and Type-Preserving
+                Compilation</strong> 
+             [ <a href="https://popl26.sigplan.org/details/prisc-2026-papers/11/Specifying-ABIs-with-Realizability-and-Type-Preserving-Compilation">abstract</a>
+              ]
+              <br />
+              PriSC 2026.
+              Brianna Marshall, Ryan Doenges, Owen Duckham, Ari Prakash, Maxime
+              Legoupil, Elan Semenova, Lars Birkedal, and Amal Ahmed.
+            </li>
+            <li>
+              <strong>Substructural Weakest Preconditions in Fibrations.</strong>
+              [ <a href="https://conf.researchr.org/details/icfp-splash-2025/hope-2025-papers/4/Substructural-Weakest-Preconditions-in-Fibrations">abstract</a>
+              ]
+              <br />
+              HOPE 2025. John M. Li, Pedro H. Azevedo de Amorim, and Ryan Doenges.
+            </li>
+            <li>
+              <strong>Verification of Implementations of Distributed Systems Under Churn.</strong>
+              [ <a href="https://popl17.sigplan.org/details/main/1/Verification-of-Implementations-of-Distributed-Systems-Under-Churn">abstract</a> ]
+              <br />
+              CoqPL 2017. Ryan Doenges, James R. Wilcox, Doug Woos, Zachary Tatlock, and Karl Palmskog.
+            </li>
+          </ul>
+
+          <h2>Students</h2>
+          <ul>
+            <li><a href="https://tia-vu.github.io/">Tia Vu</a>: Cornell (MS) ⟶ MIT (PhD)</li>
+            <li><a href="https://rudynicolop.github.io/">Rudy Peterson</a>: Cornell (BA) ⟶ ETH Zürich (PhD)</li>
+            <li><a href="https://amandashoe.github.io/">Amanda Xu</a>: Cornell (BS) ⟶ UW Madison (PhD)</li>
+            <li>Samwise Parkinson</li>
+            <li>Alex Chang</li>
+            <li>Newton Ni</li>
+            <li>Alaia Solko-Breslin</li>
+            <li>Calvin Shyu</li>
+          </ul>
+
+          <h2>Reviewing</h2>
+          <dl>
+            <dt>2026</dt>
+            <dd><a href="https://dl.acm.org/journal/toplas">TOPLAS</a>,
+                      <a href="https://etaps.org/2026/conferences/esop/">ESOP</a> (external)</dd>
+            <dt>2025</dt>
+            <dd><a href="https://lics.siglog.org/lics25/">LICS</a> (subreviewer)</dd>
+            <dt>2024</dt>
+            <dd><a href="https://csl2024.github.io/Home/">CSL</a> (external), 
+              <a href="https://popl24.sigplan.org/home/CPP-2024">CPP</a> (external),
+              <a href="https://etaps.org/2024/">ESOP/FASE/FoSSaCS</a> (AEC)</dd>
+          </dl>
+        </div>
+          <h2>Background</h2>
+          <p>Previously I have had the
+            pleasure of being a Distinguished
+            Postdoctoral Fellow with <a
+            href="https://www.khoury.northeastern.edu/home/amal/">Amal
+            Ahmed</a> at Northeastern,
+            a PhD student with 
+            <a href="https://natefoster.org/">Nate Foster</a> at Cornell,
+            and an undergraduate RA with <a
+              href="https://ztatlock.net/">Zachary Tatlock</a> at UW Seattle.
+          </p>
+          <p>
+            Doenges is pronounced “DEN-jis.” My full name is an anagram of “try
+            heron agendas.” I am from Olympia.
+          </p>
+      </div>
+      <p id="tagline">
+        <noscript>You shall listen to all sides and filter them
+          from your self.</noscript>
+      </p>
+
+    </div>
+  </body>
+  <script>
+QUOTES = [
+    /* Walt Whitman */
+    "The smallest sprout shows there is really no death",
+    "The boatmen and clam-diggers arose early and stopt for me",
+    "I play not marches for accepted victors only,<br />" +
+    "I play marches for conquer'd and slain persons.",
+
+    /* Wallace Stevens */
+    "When the blackbird flew out of sight,<br />" +
+    "It marked the edge<br />" +
+    "Of one of many circles.",
+
+    /* Vladimir Nabokov */
+    "We sit down and I start telling my friend about utility pipes,<br />" +
+    "streetcars, and other important matters.",
+
+    /* Charles Wright */
+    "And the gears notch and the engines wheel.",
+
+    /* Richard Hugo */
+    "Midwestern in the heat, this river's<br />" +
+    "curves are slow and sick.",
+
+    /* Kim Hyesoon */
+    "Your two wrists without a body run alone above the train tracks of the " +
+    "keyboard",
+
+    /* Nichita Stănescu */
+    "Let's burn all the trees on the bonfire of vanities",
+
+    /* Herman Melville */
+    "Swerve me?",
+    "Quoin is not a Euclidean term. It belongs to the pure nautical mathematics.",
+    "It is a place also for profound mathematical meditation.",
+    "So fare thee well, poor devil of a Sub-Sub, whose commentator I am.",
+
+    /* David Ferry */
+    "Enkidu, the companion, whom I loved,<br />" +
+    "is dirt, nothing but clay is Enkidu.",
+
+    /* Jenny Holzer */
+    "Abstraction is a type of decadence",
+
+    /* Cristina */
+    "Well some girls have a mission,<br />" +
+    "And some girls have their work.<br />" +
+    "Some marry with precision;<br />" +
+    "And some just dish the dirt.",
+
+    /* Simone Weil */
+    "The notions of limit, measure, balance, which should shape the " +
+    "conduct of life, are employed only in a mundane way in the " +
+    "technical sphere.",
+
+    /* Frantz Fanon */
+    "Obviously, it's a waste of breath to say that such-and-such a hero " +
+    "is a thief, a scoundrel, or a reprobate.",
+
+    /* Stevie Wonder */
+    "When you believe in things<br />" +
+    "that you don't understand<br />" +
+    "then you suffer",
+
+    /* Kraftwerk */
+    "By pressing down a special key<br />" +
+    "it plays a little melody",
+
+    /* Magnetic Fields */
+    "Grand pianos crash together<br />" +
+    "when my boy walks down the street",
+
+    /* Karl Marx */
+    "Analysis shows that it is, in reality, a very queer thing, abounding in metaphysical subtleties and theological niceties.",
+
+    /* Crystal LaBeija */
+    "She doesn't equal me!",
+
+    /* Mac Dre */
+    "That's not my job, I don't do that",
+
+    /* Spinoza */
+    "For the eyes of the mind, whereby it sees and observes things, are none other than proofs.",
+
+    /* Deleuze */
+    "[Spinoza] expresses this precisely when he says that demonstrations are " +
+    "\"the eyes of the mind.\" He is referring to the third eye, which " +
+    "enables one to see life beyond all false appearances, passions, " +
+    "and deaths."
+];
+
+window.onload = function() {
+    var tagtag = document.getElementById("tagline");
+    tagtag.innerHTML = QUOTES[Math.floor(Math.random() * QUOTES.length)];
+};
+    </script>
+</html>
